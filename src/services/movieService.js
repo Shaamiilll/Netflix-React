@@ -10,4 +10,8 @@ const endpoints = {
     comedy : `${baseurl}/search/movie?api_key=${key}&language=en-US&query=comedy&page=1&include_adult=false`
 }
 
+export function createImageUrl(filename , size){
+    return `https://image.tmdb.org/t/p/${size}/${filename}`
+}
+
 export default endpoints

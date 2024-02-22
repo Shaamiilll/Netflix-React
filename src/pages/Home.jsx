@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <>
     <Banner/>
-    <MovieRow title="Upcoming" url={endpoints.upcoming}/>
-    <MovieRow title="Trending" url={endpoints.trending}/>
-    <MovieRow title="Top-Rated" url={endpoints.topRated}/>
-    <MovieRow title="comedy" url={endpoints.comedy}/>
-    <MovieRow title="Popular" url={endpoints.popular}/>
+    <MovieRow title="Upcoming Movies" url={endpoints.upcoming}/>
+    <MovieRow title="Trending Movies" url={endpoints.trending}/>
+    <MovieRow title="Top-Rated Movies" url={endpoints.topRated}/>
+    <MovieRow title="comedy Movies" url={endpoints.comedy}/>
+    <MovieRow title="Popula Moviesr" url={endpoints.popular}/>
     </>
   )
 }

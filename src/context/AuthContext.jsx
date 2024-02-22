@@ -56,7 +56,7 @@ export function AuthContextProvider({ children }) {
         </AuthContext.Provider>
     );
 }
-
+// Auth context
 export function useAuth() {
     return useContext(AuthContext);
 }
